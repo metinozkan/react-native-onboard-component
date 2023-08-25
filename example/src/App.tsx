@@ -1,18 +1,31 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-onboard-component';
+import { StyleSheet, View, Text, Image } from 'react-native';
+import OnboardingSwiper from 'react-native-onboard-component';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
+  React.useEffect(() => {}, []);
 
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
+  const data = [
+    {
+      image: require('./images/image.png'),
+      title: 'Onboarding',
+      description: 'Done with React Native Onboard Component',
+    },
+    {
+      image: require('./images/image2.png'),
+      title: 'Onboarding',
+      description: 'Done with React Native Onboard Component',
+    },
+  ];
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <OnboardingSwiper
+        data={data}
+        onDone={() => {}}
+        textContainerStyle={{ display: 'none' }}
+      />
     </View>
   );
 }

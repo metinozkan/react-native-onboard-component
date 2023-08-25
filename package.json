@@ -40,13 +40,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/metinozkan/react-native-onboard-component.git",
+  "repository": "https://github.com/metinozkan/react-native-onboard-component",
   "author": "metin ozkan <metin.ozkn1@gmail.com> (https://github.com/metinozkan/react-native-onboard-component)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/metinozkan/react-native-onboard-component.git/issues"
+    "url": "https://github.com/metinozkan/react-native-onboard-component/issues"
   },
-  "homepage": "https://github.com/metinozkan/react-native-onboard-component.git#readme",
+  "homepage": "https://github.com/metinozkan/react-native-onboard-component#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
