@@ -2,8 +2,8 @@
 
 A smooth and customizable onboarding swiper/slider for your React Native applications.
 
-| <img src="demo/demo1.png" width="300" height="500"> | <img src="demo/demo2.png" width="300" height="500"> |
-| --------------------------------------------------- | --------------------------------------------------- |
+| <img src="demo/demo1.png" width="300"> | <img src="demo/demo2.png" width="300"> |
+| -------------------------------------- | -------------------------------------- |
 
 ## Features
 
