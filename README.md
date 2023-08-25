@@ -2,7 +2,8 @@
 
 A smooth and customizable onboarding swiper/slider for your React Native applications.
 
-![Onboarding Swiper Demo](path_to_your_demo_image.png) <!-- You can replace "path_to_your_demo_image.png" with the actual path to a demo image if you have one. -->
+| <img src="demo/demo1.png" width="300" height="500"> | <img src="demo/demo2.png" width="300" height="500"> |
+| --------------------------------------------------- | --------------------------------------------------- |
 
 ## Features
 
