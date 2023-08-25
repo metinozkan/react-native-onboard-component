@@ -1,4 +1,4 @@
-import React, { useRef, useState, ReactNode } from 'react';
+import React, { useRef, useState, type ReactNode } from 'react';
 import type { ImageSourcePropType } from 'react-native';
 import type { ViewStyle, ImageStyle, TextStyle, StyleProp } from 'react-native';
 import {
